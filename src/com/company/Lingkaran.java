@@ -17,11 +17,12 @@ public class Lingkaran implements MenghitungBidang{
 
     @Override
     public double luas() {
-        return 0;
+        return Math.PI * jari * jari;
     }
 
     @Override
     public double kelilingBidang() {
-        return 0;
+
+        return 2 * Math.PI * jari;
     }
 }

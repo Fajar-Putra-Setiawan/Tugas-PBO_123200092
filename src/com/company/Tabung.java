@@ -27,9 +27,9 @@ public class Tabung extends Lingkaran implements MenghitungRuang{
     }
 
     public void display(){
-        System.out.println("luas Persegi Panjang : " + luas());
-        System.out.println("Keliling Persegi Panjang : "+ kelilingBidang());
-        System.out.println("Volume Balok : " + vol());
-        System.out.println("Luas Permukaan Balok : "+ luasPermukaan());
+        System.out.println("luas Lingkaran : " + luas());
+        System.out.println("Keliling Lingkarang : "+ kelilingBidang());
+        System.out.println("Volume Tabung : " + vol());
+        System.out.println("Luas Permukaan Tabung : "+ luasPermukaan());
     }
 }
